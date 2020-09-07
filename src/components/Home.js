@@ -38,17 +38,17 @@ const Home = () => {
           role="Founder - Full stack project"
           description="Financial planning application that aims to empower users to take
         better control of their finances."
-          src="/images/wealthvitals.png"
+          src="/images/wealthvitals.jpg"
           alt="Wealthvitals"
           href="https://github.com/johnnytortorici/wealthvitals"
         />
         <Project
-          name="Minimal React Store"
-          role="Front-end project - Design provided"
-          description="Simple React store template with product grid and product pages."
-          src="/images/minimal-react-store.png"
-          alt="Minimal React Store"
-          href="https://minimal-react-store.netlify.app/"
+          name="The Shoppies"
+          role="Front-end, React project"
+          description="Movie nomination demo built with React. Links to the OMDb API."
+          src="/images/shoppies-responsive.jpg"
+          alt="The Shoppies"
+          href="https://shoppies-react.netlify.app/"
         />
       </Projects>
     </Wrapper>
