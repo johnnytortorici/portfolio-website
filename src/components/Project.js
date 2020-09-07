@@ -20,8 +20,9 @@ const Project = ({ name, role, description, src, alt, href }) => {
 };
 
 const Wrapper = styled.div`
-  margin: 0 30px 30px 0;
-  width: calc(33% - 30px);
+  /* width: calc(33% - 10px); */
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
   background-color: #fff;
   border: 1px solid #d3d3d3;
   border-radius: 5px;
@@ -33,10 +34,10 @@ const Wrapper = styled.div`
   }
 
   @media (max-width: 1000px) {
-    width: calc(50% - 30px);
+    width: calc(50% - 10px);
   }
   @media (max-width: 650px) {
-    width: calc(100% - 30px);
+    width: 100%;
   }
 `;
 

@@ -57,14 +57,21 @@ const Home = () => {
 
 const Wrapper = styled.div`
   padding: 40px;
+
+  @media (max-width: 650px) {
+    padding: 20px;
+  }
 `;
 
 const Heading = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 70vh;
+  padding: 60px 0;
+
+  @media (max-width: 650px) {
+    padding: 20px 0;
+  }
 `;
 
 const Title = styled.div`
@@ -87,6 +94,7 @@ const Social = styled.div`
 const Projects = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 `;
 
 export default Home;
