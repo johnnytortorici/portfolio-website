@@ -39,7 +39,7 @@ const Home = () => {
           </a>
         </Social>
       </Heading>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -100 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -100 1440 319">
         <path
           fill="rgba(107,51,230, 0.2)"
           fill-opacity="1"
