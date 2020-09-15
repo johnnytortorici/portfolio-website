@@ -27,6 +27,8 @@ export default createGlobalStyle`
 
   svg {
     display: block;
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 
   button {
