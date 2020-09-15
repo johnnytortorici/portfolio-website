@@ -11,7 +11,6 @@ export default createGlobalStyle`
     color: #495257;
     font-size: 1.2em;
     font-family: "Rubik", sans-serif;
-    background-color: #F5F7F8;
   }
 
   a {
@@ -24,6 +23,10 @@ export default createGlobalStyle`
 
   img {
     width: 100%;
+  }
+
+  svg {
+    display: block;
   }
 
   button {
